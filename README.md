@@ -2,8 +2,7 @@
 
 A comprehensive full-stack employee management solution built with modern technologies. WorkHub provides enterprise-grade features for managing employees, departments, analytics, and user authentication with a sleek, responsive interface.
 
-**Built by:** Kodati Sai Teja | **GitHub:** [@TEJA6777](https://github.com/TEJA6777) | **Email:** saitejakodati6777@gmail.com
-**LINK OF WEBSITE : ** https://workhub-platform.netlify.app/ 
+**Built by:** Ch Siddhartha | **GitHub:** [https://github.com/mr-siddhu-0201) | **Email:** siddhusiddhartha996@gmail.com
 ---
 
 ## 🎯 Quick Overview
