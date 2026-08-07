@@ -414,8 +414,8 @@ We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for gu
 
 - **Author:** Ch Siddhartha
 - **Email:** siddhusiddhartha996@gmail.com
-- **GitHub:** [@TEJA6777](https://github.com/mr-siddhu-0201/)
-- **Repository:** [WorkHub Modern Employee Management Platform](https://github.com/mr-siddhu-0201/Employee-Management-Platform)
+- **GitHub:** [@Siddhu](https://github.com/mr-siddhu-0201/)
+- **Repository:** [Employee Management Platform](https://github.com/mr-siddhu-0201/Employee-Management-Platform)
 
 ---
 
