@@ -141,7 +141,7 @@ npm start
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform.git
+git clone https://github.com/mr-siddhu-0201/Employee-Management-Platform.git
 cd WorkHub-Modern-Employee-Management-Platform
 ```
 
