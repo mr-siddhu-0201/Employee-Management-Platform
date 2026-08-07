@@ -97,8 +97,8 @@ WorkHub is a production-ready employee management platform that combines:
 
 ```bash
 # Clone the repository
-git clone https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform.git
-cd WorkHub-Modern-Employee-Management-Platform
+git clone https://github.com/mr-siddhu-0201/Employee-Management-Platform.git
+cd Employee-Management-Platform
 
 # Start with Docker Compose
 docker-compose up -d
@@ -113,8 +113,8 @@ docker-compose up -d
 
 ```bash
 # Clone repository
-git clone https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform.git
-cd WorkHub-Modern-Employee-Management-Platform
+git clone https://github.com/mr-siddhu-0201/Employee-Management-Platform.git
+cd Employee-Management-Platform
 
 # Backend setup
 cd backend
