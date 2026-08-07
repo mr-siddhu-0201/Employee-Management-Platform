@@ -401,29 +401,22 @@ We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for gu
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License - see [LICENSE](./LICENSE) file for details.
-
-**Copyright (c) 2024 Kodati Sai Teja (https://github.com/TEJA6777)**
-
----
 
 ## 📞 Support & Contact
 
 ### Get Help
 
-- 🐛 **Report Issues:** [GitHub Issues](https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/issues)
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform/discussions)
+- 🐛 **Report Issues:** [GitHub Issues](https://github.com/mr-siddhu-0201/Employee-Management-Platform)
+- 💬 **Discussions:** [GitHub Discussions](https://github.com/mr-siddhu-0201/Employee-Management-Platform/discussions)
 - ❓ **FAQ:** [Check our FAQ](./FAQ.md)
 - 📚 **Documentation:** [View all docs](./DOCUMENTATION_INDEX.md)
 
 ### Contact Information
 
-- **Author:** Kodati Sai Teja
-- **Email:** saitejakodati6777@gmail.com
-- **GitHub:** [@TEJA6777](https://github.com/TEJA6777)
-- **Repository:** [WorkHub Modern Employee Management Platform](https://github.com/TEJA6777/WorkHub-Modern-Employee-Management-Platform)
+- **Author:** Ch Siddhartha
+- **Email:** siddhusiddhartha996@gmail.com
+- **GitHub:** [@TEJA6777](https://github.com/mr-siddhu-0201/)
+- **Repository:** [WorkHub Modern Employee Management Platform](https://github.com/mr-siddhu-0201/Employee-Management-Platform)
 
 ---
 
