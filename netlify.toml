@@ -1,0 +1,84 @@
+# Netlify Configuration for Employee Management App
+# Frontend-only build (backend should be deployed separately to Heroku/AWS/Azure)
+
+[build]
+  # Build command - only build the frontend
+  command = "cd frontend && npm ci && npm run build"
+  # Publish directory - where the frontend build output is located
+  publish = "frontend/build"
+  # Base directory for the build
+  base = "."
+  # Functions directory (if using Netlify Functions)
+  functions = "functions"
+
+# Environment variables for frontend build
+[build.environment]
+  # Node version
+  NODE_VERSION = "22.21.1"
+  # NPM version
+  NPM_VERSION = "10.9.4"
+  # Ensure we skip backend install
+  SKIP_BACKEND_INSTALL = "true"
+
+# Redirect all API calls to backend (update with your backend URL)
+[[redirects]]
+  from = "/api/*"
+  to = "http://localhost:8080/api/:splat"
+  status = 200
+  # Note: This localhost redirect is for local development.
+  # For production, update this to your deployed backend URL:
+  # to = "https://your-heroku-backend.herokuapp.com/api/:splat"
+  # to = "https://your-aws-backend.com/api/:splat"
+
+# Redirect to index.html for React Router (SPA)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and CORS
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # CORS headers - update ORIGIN_URL with your backend
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization"
+    # Security headers
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Cache control headers for static assets
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Context-specific settings for different deploy environments
+[context.production]
+  command = "cd frontend && npm ci && npm run build"
+  publish = "frontend/build"
+
+[context.deploy-preview]
+  command = "cd frontend && npm ci && npm run build"
+  publish = "frontend/build"
+
+[context.branch-deploy]
+  command = "cd frontend && npm ci && npm run build"
+  publish = "frontend/build"
+
+# Plugins (optional - useful for image optimization, etc.)
+# [[plugins]]
+#   package = "netlify-plugin-cra-build"
